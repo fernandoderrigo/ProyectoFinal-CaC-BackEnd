@@ -1,8 +1,10 @@
 # app.py
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import models
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/productos', methods=['GET'])
 def get_items():
