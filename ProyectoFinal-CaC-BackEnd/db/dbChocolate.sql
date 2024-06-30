@@ -103,3 +103,6 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-06-30 18:30:02
+ALTER TABLE `chocolates`.`imagenes` 
+CHANGE COLUMN `idImagenes` `idImagen` INT(11) NOT NULL ,
+CHANGE COLUMN `imagenes` `imagen` LONGBLOB NOT NULL ;
