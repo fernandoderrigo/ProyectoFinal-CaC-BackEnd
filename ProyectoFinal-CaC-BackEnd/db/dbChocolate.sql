@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `chocolates` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
-USE `chocolates`;
 -- MariaDB dump 10.19  Distrib 10.4.28-MariaDB, for Win64 (AMD64)
 --
 -- Host: 127.0.0.1    Database: chocolates
@@ -16,6 +14,32 @@ USE `chocolates`;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `imagenes`
+--
+
+DROP TABLE IF EXISTS `imagenes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `imagenes` (
+  `idImagenes` int(11) NOT NULL AUTO_INCREMENT,
+  `imagenes` longblob NOT NULL,
+  `idProducto` int(11) NOT NULL,
+  PRIMARY KEY (`idImagenes`),
+  KEY `fk_idProducto` (`idProducto`),
+  CONSTRAINT `fk_idProducto` FOREIGN KEY (`idProducto`) REFERENCES `productos` (`idProducto`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `imagenes`
+--
+
+LOCK TABLES `imagenes` WRITE;
+/*!40000 ALTER TABLE `imagenes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `imagenes` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `presentaciones`
@@ -68,10 +92,6 @@ LOCK TABLES `productos` WRITE;
 INSERT INTO `productos` VALUES (1,'Bombones'),(2,'Cajitas'),(3,'Figuras en azucar'),(4,'Figuras en chocolate'),(5,'Flores'),(6,'Huevos'),(7,'Mensajes'),(8,'Ositos'),(9,'Paletitas');
 /*!40000 ALTER TABLE `productos` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Dumping events for database 'chocolates'
---
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -82,4 +102,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-06-23 19:26:21
+-- Dump completed on 2024-06-30 18:30:02
