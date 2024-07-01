@@ -13,11 +13,18 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     })
     .then(response => response.json())
     .then(data => {
+        const errorMessage = document.getElementById('errorMessage');
         if (data.success) {
             window.location.href = '/usuario';
         } else {
-            console.log('Login failed: ' + data.message);
+            errorMessage.textContent = 'Error en correo o contraseña';
+            errorMessage.style.display = 'block';
         }
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+        console.error('Error:', error);
+        const errorMessage = document.getElementById('errorMessage');
+        errorMessage.textContent = 'Ocurrió un error. Por favor, inténtelo de nuevo más tarde.';
+        errorMessage.style.display = 'block';
+    });
 });

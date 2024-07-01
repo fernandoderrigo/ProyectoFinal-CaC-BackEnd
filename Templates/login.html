@@ -88,6 +88,7 @@
             <input type="password" id="password" name="password" required />
             <button type="submit">Ingresar</button>
           </form>
+          <p id="errorMessage" style="color: red; display: none;"></p>
           <p>¿No tienes usuario? <a href="{{ url_for('register') }}">Crea uno AQUI</a></p>
         {% endif %}
       </div>
