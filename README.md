@@ -1,6 +1,6 @@
 ![Logo]([https://raw.githubusercontent.com/NahuelBMiras/TpGlobal/Nahuel/public/img/usar_logo.png](https://github.com/fernandoderrigo/ProyectoFinal-CaC-BackEnd/blob/main/static/assets/index/logo/logo_oscuro_7_11zon.webp))
 
-# Chocoarte Delicioso
+# 🍫Chocoarte Delicioso🍫
 
 ¡Bienvenido a **Chocoarte Delicioso**! Esta es una tienda en línea especializada en la venta de bombones, chocolates, figuras de azúcar y otros productos de confitería de alta calidad.
 
