@@ -1,3 +1,6 @@
+![Logo](https://github.com/fernandoderrigo/ProyectoFinal-CaC-BackEnd/blob/main/static/assets/index/logo/logo_oscuro_7_11zon.webp)
+
+
 🍫 Chocoarte Delicioso 🍫
 
 Logo de Chocoarte Delicioso
