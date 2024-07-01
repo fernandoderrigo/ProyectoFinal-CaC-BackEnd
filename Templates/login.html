@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chocoarte Delicioso</title>
+    <meta
+      name="description"
+      content="Bienvenido a Chocoarte Delicioso, donde encontrarás los mejores bombones y chocolates artesanales. Explora nuestra selección y disfruta de nuestras deliciosas creaciones."
+    />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="static/assets/index/logo/favicon_4_11zon.webp"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <!--Inicio de Header -->
+    <header>
+      <div>
+        <h5>ENVÍOS CON TU COMPRA SUPERIOR A $100.000</h5>
+      </div>
+
+      <section>
+        <div class="logo">
+          <img src="static/assets/index/logo/logo_oscuro_7_11zon.webp" alt="Logo" />
+        </div>
+        <div class="icons">
+          {% if 'user' in session %}
+              <a class="icon" href="{{ url_for('usuario') }}">
+                <i class="fa-solid fa-user"></i>
+              </a>
+          {% else %}
+              <a class="icon" href="{{ url_for('login') }}">
+                <i class="fa-solid fa-user"></i>
+              </a>
+          {% endif %}
+          <a class="icon" href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/">
+            <i class="fa-solid fa-star"></i>
+          </a>
+          <a class="icon" href="{{ url_for('logout') }}">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+        </div>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a class="icon" href="{{ url_for('index') }}">Inicio</a></li>
+          <li><a class="icon" href="{{ url_for('productos') }}">Productos</a></li>
+          <li>
+            <a class="icon" href="{{ url_for('sobre_nosotros') }}">Sobre Nosotros</a>
+          </li>
+          <li><a class="icon" href="{{ url_for('contacto') }}">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Fin de Header -->
+
+    <main>
+      <div class="login-container">
+        {% if 'user' in session %}
+          <p class="p_register">Ya estás logeado. <a href="{{ url_for('usuario') }}">Ir a tu perfil</a></p>
+        {% else %}
+          <form id="loginForm" action="{{ url_for('login') }}" method="post">
+            <h2>Iniciar Sesión</h2>
+            <label for="mail">Correo Electrónico</label>
+            <input type="email" id="mail" name="mail" required />
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required />
+            <button type="submit">Ingresar</button>
+          </form>
+          <p>¿No tienes usuario? <a href="{{ url_for('register') }}">Crea uno AQUI</a></p>
+        {% endif %}
+      </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>Derechos de autor © 2024 Grupo 20 Codo a Codo: Fullstack Python</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+    <script
+      src="https://kit.fontawesome.com/4db8309fde.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

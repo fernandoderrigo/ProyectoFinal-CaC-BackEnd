@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chocoarte Delicioso</title>
+    <meta name="description" content="Bienvenido a Chocoarte Delicioso, donde encontrarás los mejores bombones y chocolates artesanales. Explora nuestra selección y disfruta de nuestras deliciosas creaciones." />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/index/logo/favicon_4_11zon.webp') }}" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/4db8309fde.js" crossorigin="anonymous"></script>
+    <link rel="preload" href="{{ url_for('static', filename='assets/index/logo/logo_oscuro_7_11zon.webp') }}" as="image" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h5>ENVÍOS CON TU COMPRA SUPERIOR A $100.000</h5>
+      </div>
+
+      <section>
+        <div class="logo">
+          <img src="static/assets/index/logo/logo_oscuro_7_11zon.webp" alt="Logo" />
+        </div>
+        <div class="icons">
+          <a class="icon" href="{{ url_for('login') }}">
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a class="icon" href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/">
+            <i class="fa-solid fa-star"></i>
+          </a>
+          <a class="icon" href="{{ url_for('logout') }}">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+        </div>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a class="icon" href="{{ url_for('index') }}">Inicio</a></li>
+          <li>
+            <a class="icon" href="{{ url_for('productos') }}">Productos</a>
+          </li>
+          <li>
+            <a class="icon" href="{{ url_for('sobre_nosotros') }}">Sobre Nosotros</a>
+          </li>
+          <li><a class="icon" href="{{ url_for('contacto') }}">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="login-container">
+          <form id="registerForm" class="form_register" method="POST" action="/register/">
+              <h2>Registrarse</h2>
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" required>
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" required>
+              <label for="mail">Correo</label>
+              <input type="email" id="mail" name="mail" required>
+              <label for="password">Contraseña</label>
+              <input type="password" id="password" name="password" required>
+              <button type="submit">Registrarse</button>
+          </form>
+      </div>
+  </main>
+
+    <footer>
+      <p>Derechos de autor © 2024 Grupo 20 Codo a Codo: Fullstack Python</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='scripts/register.js') }}"></script>
+  </body>
+</html>

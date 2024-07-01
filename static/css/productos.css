@@ -1,0 +1,431 @@
+/* Inicio Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fin Estilos Generales */
+
+/* Inicio Estilos del Cuerpo */
+body {
+  font-family: sans-serif;
+  margin-top: 20px;
+  background-color: rgb(233, 216, 196);
+  overflow-x: hidden;
+}
+
+/* Fin Estilos del Cuerpo */
+
+/* Inicio de Header */
+header {
+  background-color: rgb(17, 17, 17);
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5%;
+  background-color: rgb(252, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 0.2% 0;
+  margin: 0;
+  z-index: 999;
+  align-items: center;
+}
+
+header section {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 90%;
+  background-color: rgb(233, 216, 196);
+  margin-bottom: 5px;
+}
+
+header .icons {
+  display: flex;
+  gap: 0.8em;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+  border-bottom: 1px solid transparent;
+  padding: 2px 4px;
+}
+
+nav ul li:hover {
+  border-color: #148171;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+}
+
+nav ul li:hover a {
+  color: #148171;
+}
+
+/* Fin de Header */
+
+/* Inicio Estilos de Texto */
+h2,
+.nuestros_productos_titulo {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #0c0c0c;
+  text-transform: uppercase;
+  padding: 2px 0px;
+  background-color: #d0ad4f;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Fin Estilos de Texto */
+
+/* Inicio de Cuerpo */
+.titulo2 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #0c0c0c;
+  text-transform: uppercase;
+  padding: 2px 0px;
+  background-image: url("../assets/index/Carrousel/banner_2_11zon.webp");
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.tipo {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: #000000 solid 1px;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  color: #000000;
+  font-weight: bold;
+  background-color: #d6bc75;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nuestros-productos {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(233, 216, 196);
+  justify-content: space-around;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tipo-producto {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #0c0c0c;
+  text-transform: uppercase;
+  padding: 1rem;
+  background-color: #d0ad4f;
+  font-size: 150%;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+
+/* Inicio Tarjetas */
+.card2 {
+  width: 100%;
+  height: auto;
+  margin: 0.5%;
+  background-color: rgba(216, 198, 175, 0.494);
+  display: inline-block;
+  flex-direction: column;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+
+  font-size: 20px;
+}
+
+.btn-carrito {
+  color: #ffffff;
+  border-radius: 10px;
+  padding: auto;
+  margin: auto;
+  display: block;
+  background-color: #c99383;
+  border: #c99383 1px solid;
+}
+
+.carrito {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  display: block;
+}
+
+.card-img-top2 {
+  object-fit: cover;
+  width: 70%;
+  aspect-ratio: 1;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.978);
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+}
+
+.card-img-top2:hover {
+  transform: scale(1.2);
+}
+
+.card-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Fin Tarjetas */
+
+/*carrito flotante*/
+
+#carrito-flotante {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  width: auto;
+  padding: auto;
+  height: auto;
+  background-color: rgb(180, 134, 134);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#carrito-flotante h4 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#carrito-flotante ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#carrito-flotante li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+#carrito-flotante button {
+  margin-left: 10px;
+  background-color: rgba(194, 61, 21, 0.291);
+  border: none;
+  padding: 5px 10px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: auto;
+}
+
+#carrito-flotante.hidden {
+  display: none;
+}
+
+#toggle-carrito {
+  position: fixed;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: auto;
+  font-size: auto;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  top: 20px;
+  right: 0;
+  width: auto;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Fin carrito flotante */
+
+/* Estilos para el mensaje emergente (toast) */
+#toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  z-index: 1100;
+
+  justify-content: center;
+}
+
+.toast {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+/* Inicio Pie de página */
+footer {
+  background-image: url("../assets/index/Carrousel/banner_2_11zon.webp");
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-shadow: 4px 2px 15px #000000;
+  height: 15px;
+}
+
+/* Inicio Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+  }
+
+  .logo {
+    width: 75%;
+    margin-bottom: 10%;
+    margin-top: 70px;
+    text-align: left;
+  }
+
+  nav {
+    text-align: center;
+    margin-bottom: 15%;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .nav-header a {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 0.4rem;
+  }
+
+  .nuestros_productos {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  header h5 {
+    font-size: 0.9rem;
+    margin-top: 0;
+    height: 4%;
+  }
+
+  footer {
+    height: 25%;
+
+  }
+}
+
+/* Fin Estilos para pantallas pequeñas */
+
+@media (min-width: 928px) and (max-width: 1152px) {
+  img.logo {
+    width: 75%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 927px) {
+  header section {
+    display: flex;
+    align-items: center;
+  }
+
+  img.logo {
+    width: 75%;
+  }
+}

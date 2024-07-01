@@ -1,0 +1,133 @@
+/* Estilos del Contenedor del Perfil */
+.perfil-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: solid 2px rgb(190, 185, 165);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos del Título */
+h2 {
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+  text-shadow: none;
+}
+
+/* Estilos de Etiquetas y Entradas del Formulario */
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  border-color: #148171;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(20, 129, 113, 0.3);
+}
+
+/* Estilos del Botón */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #148171;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #106d62;
+}
+
+/* Estilos del Botón de Eliminar Cuenta */
+button.delete-account {
+  background-color: #e74c3c;
+}
+
+button.delete-account:hover {
+  background-color: #c0392b;
+}
+
+/* Estilos para opciones de avatar */
+.avatar-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.avatar-options label {
+  cursor: pointer;
+}
+
+.avatar-options input[type="radio"] {
+  display: none;
+}
+
+.avatar-options img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.avatar-options input[type="radio"]:checked + label img {
+  border-color: #148171;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .perfil-container {
+    width: 70%;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .perfil-container {
+    width: 50%;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .perfil-container {
+    width: 40%;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 339px) {
+  .avatar-options img {
+    width: 100%;
+    height: 100%;
+  }
+}
