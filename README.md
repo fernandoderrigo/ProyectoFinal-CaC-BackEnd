@@ -1,4 +1,4 @@
-![Logo de Chocoarte Delicioso](http://fernandoderrigo.pythonanywhere.com/static/assets/index/logo/logo_oscuro_7_11zon.webp)
+[![Logo de Chocoarte Delicioso](http://fernandoderrigo.pythonanywhere.com/static/assets/index/logo/logo_oscuro_7_11zon.webp)](https://github.com/fernandoderrigo/ProyectoFinal-CaC-BackEnd/blob/main/static/assets/index/logo/logo_oscuro_7_11zon.webp)
 
 # Chocoarte Delicioso
 
