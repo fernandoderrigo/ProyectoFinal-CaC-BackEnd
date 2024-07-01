@@ -1,0 +1,325 @@
+[
+    {
+        "bombones": [
+            {
+                "id": 1,
+                "nombre": "Bombones redondos",
+                "stock": 30,
+                "precio": 1100,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Bombones redondos 2",
+                "stock": 30,
+                "precio": 1200,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones1.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Bombones redondos 3",
+                "stock": 30,
+                "precio": 1300,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones2.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Bombones redondos 4",
+                "stock": 30,
+                "precio": 1400,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones3.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Bombones redondos 5",
+                "stock": 30,
+                "precio": 1500,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones4.jpg"
+            }
+        ]
+    },
+    {
+        "cajitas": [
+            {
+                "id": 1,
+                "nombre": "Cajitas animales",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/cajitas/cajita1.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Cajitas among us",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/cajitas/cajita2.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Cajitas ropas",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/cajitas/cajita3.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Cajitas minions",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/cajitas/cajita4.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Cajitas robots",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/cajitas/cajita5.jpg"
+            }
+        ]
+    },
+    {
+        "Figuras en azucar": [
+            {
+                "id": 1,
+                "nombre": "Flores",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/figuras de azucar/figura1.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Patitos",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/figuras de azucar/figura3.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "conejitos cara",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/figuras de azucar/figura4.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Conejitos",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/figuras de azucar/figura5.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Ositos",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/figuras de azucar/figura6.jpg"
+            }
+        ]
+    },
+    {
+        "Figuras en Chocolate": [
+            {
+                "id": 1,
+                "nombre": "Dinosaurio",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Unicornio",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura2.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "zapatitos",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura6.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "pelotas",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura7.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Corazon",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura10.jpg"
+            }
+        ]
+    },
+    {
+        "flores": [
+            {
+                "id": 1,
+                "nombre": "flores triples",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/flores/flores.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Flor simple",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/flores/flores2.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Rosas",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/flores/flores4.jpg"
+            }
+        ]
+    },
+    {
+        "Huevos": [
+            {
+                "id": 1,
+                "nombre": "Huevo decorado",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Huevo corazon",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo2.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Huevo colores",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo5.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Huevo grande",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo6.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Huevos Dinos",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo7.jpg"
+            }
+        ]
+    },
+    {
+        "mensajes": [
+            {
+                "id": 1,
+                "nombre": "Feliz dia Mamá",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Feliz dia Mamá 2",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje2.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Feliz dia Mamá 3",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje3.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Feliz dia Mamá cajita",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje4.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Feliz dia Mamá 4",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje5.jpg"
+            }
+        ]
+    },
+    {
+        "ositos": [
+            {
+                "id": 1,
+                "nombre": "ositos cajitas triple",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/ositos/osito.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Ositos con bombones",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/ositos/osito2.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Ositos",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/ositos/osito4.jpg"
+            }
+        ]
+    },
+    {
+        "paletitas": [
+            {
+                "id": 1,
+                "nombre": "paleta conejo",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/paletitas/paletita2.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "paleta conejo grande",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/paletitas/paletita3.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "paleta unicornio",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/paletitas/paletita4.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "paletitas Among Us",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/paletitas/paletita5.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "paletitas Among Us y robot",
+                "stock": 30,
+                "precio": 1000,
+                "img": "./assets/Productos/Chocolates-20240503T122915Z-001/chocolates/paletitas/paletita6.jpg"
+            }
+        ]
+    }
+]

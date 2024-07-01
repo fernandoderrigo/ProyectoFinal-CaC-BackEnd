@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Inicio Estilos del Cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  height: 100svh;
+  margin-top: 20px;
+  overflow-x: hidden;
+  margin: 0;
+  color: #d6bc75;
+  background-color: #060606 !important;
+}
+
+h2 {
+  color: #fff !important;
+  text-align: center;
+  font-family: "Gloock", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.main-content {
+  flex-grow: 1; /* Hace que el contenido ppal.crezca para ocupar todo el espacio */
+  padding: 20px 0px 0px 0px;
+}
+
+.fila {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #e6d39f;
+}
+
+.columna {
+  width: 50%;
+}
+
+.columnaImagen {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.columna p {
+  text-align: justify;
+}
+
+.imagen {
+  width: 75%;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pr-60 {
+  padding-right: 60px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+/* Consultas de medios para dispositivos móviles */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+  }
+  .pr-60 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .pl-60 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fila.pb-60 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .fila {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .columna,
+  .columnaImagen {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 100%;
+  }
+
+  .columnaImagen {
+    order: 1; /* Cambia el orden de la imagen para que esté arriba */
+  }
+
+  .columna {
+    order: 2; /* Cambia el orden del texto para que esté abajo */
+  }
+}
+h2 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/* Consultas de medios para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  h5 {
+    position: fixed;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+
+#parrafo_sn {
+  color: black;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5;
+}

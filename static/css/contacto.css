@@ -1,0 +1,105 @@
+.maincontact {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border: solid 2px rgb(190, 185, 165);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+#h2form{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: none;
+    color: black;
+    font-weight: normal;
+    text-shadow: none;
+    text-transform: none;
+    background-color: white;
+}
+input[type="submit"],
+button {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+    margin-top: 1%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #ccc;
+    transition: background-color 0.3s;
+    margin-top: 1%;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+@media screen and (max-width: 525px) {
+    .container {
+        max-width: 95%;
+    }
+}
+.asterisco {
+    color: red;
+}
+#texto_asterisco {
+    font-size: 0.6rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+#comentarios {
+    resize: vertical; /* Permite redimensionar solo verticalmente */
+    min-width: 100%; /* Ancho mínimo */
+    max-width: 100%; /* Ancho máximo */
+    min-height: 100px; /* Altura mínima */
+    max-height: 300px; /* Altura máxima */
+    width: 100%; /* Ancho del textarea */
+}
+.radio {
+    margin-top: 1%;
+}
+#si , #no{
+    display: inline-block;
+    margin:2% 2% 2% 4%;
+}

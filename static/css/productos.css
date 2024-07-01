@@ -1,0 +1,409 @@
+/* Inicio Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fin Estilos Generales */
+
+/* Inicio Estilos del Cuerpo */
+body {
+  font-family: sans-serif;
+  height: 100svh;
+  margin-top: 20px;
+  background-color: #d6bc75;
+  overflow-x: hidden;
+}
+
+/* Fin Estilos del Cuerpo */
+
+/* Inicio Header */
+header {
+  text-align: center;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 15%;
+  margin: 0%;
+}
+
+/* Fin Header */
+
+/* Inicio Título Header */
+header h5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(252, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 0.01% 0;
+  margin: 0;
+  z-index: 999;
+}
+
+/* Fin Título Header */
+
+/* Inicio Sección Header */
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Fin Sección Header */
+
+/* Inicio Logo */
+.logo {
+  width: 450px;
+}
+
+/* Fin Logo */
+
+/* Inicio Navegación */
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 50%;
+}
+
+/* Fin Navegación */
+
+/* Inicio Enlaces de Navegación */
+.nav-header a {
+  background-color: rgba(238, 183, 166, 0.291);
+  color: #bcb8b8;
+  margin: 0 5px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 15px 25px;
+  transition: background-color 0.5s, color 0.5s;
+  border-radius: 15px;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+.nav-header a:hover {
+  background-color: rgb(250, 5, 5);
+  color: #ffffff;
+}
+
+/* Fin Enlaces de Navegación */
+
+/* Inicio Estilos de Texto */
+h2,
+.nuestros_productos_titulo {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #0c0c0c;
+  text-transform: uppercase;
+  padding: 2px 0px;
+  background-image: url("../assets/index/Carrousel/banner.jpg");
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+/* Fin Estilos de Texto */
+.titulo2 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #0c0c0c;
+  text-transform: uppercase;
+  padding: 2px 0px;
+  background-image: url("../assets/index/Carrousel/banner.jpg");
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.tipo {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: #000000 solid 1px;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  color: #000000;
+  font-weight: bold;
+  background-color: #d6bc75;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nuestros-productos {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(233, 216, 196);
+  justify-content: space-around;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tipo-producto {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #0c0c0c;
+  text-transform: uppercase;
+  padding: 2rem;
+  background-image: url("../assets/index/Carrousel/banner.jpg");
+  font-size: 150%;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+
+/* Inicio Tarjetas */
+.card {
+  width: 100%;
+  height: auto;
+  margin: 0.5%;
+  background-color: rgba(216, 198, 175, 0.494);
+  display: inline-block;
+  flex-direction: column;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+
+  font-size: 20px;
+}
+
+.btn-carrito {
+  color: #ffffff;
+  border-radius: 10px;
+  padding: auto;
+  margin: auto;
+  display: block;
+  background-color: #c99383;
+  border: #c99383 1px solid;
+}
+
+.carrito {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  display: block;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 70%;
+  aspect-ratio: 1;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.978);
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+.card-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Fin Tarjetas */
+
+/*carrito flotante*/
+
+#carrito-flotante {
+  position: fixed;
+  margin-right: auto;
+  margin-left: auto;
+
+  right: 20px;
+  width: auto;
+  padding: 15px;
+  background-color: rgb(180, 134, 134);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#carrito-flotante h4 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#carrito-flotante ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#carrito-flotante li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+#carrito-flotante button {
+  margin-left: 10px;
+  background-color: rgba(194, 61, 21, 0.291);
+  border: none;
+  padding: 5px 10px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: auto;
+}
+
+#carrito-flotante.hidden {
+  display: none;
+}
+
+#toggle-carrito {
+  position: fixed;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 20px;
+  width: auto;
+  z-index: 1000;
+  text-align: center;
+}
+
+/* Fin carrito flotante */
+
+/* Estilos para el mensaje emergente (toast) */
+#toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  z-index: 1100;
+
+  justify-content: center;
+}
+
+.toast {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+/* Inicio Pie de página */
+footer {
+  background-image: url("../assets/index/Carrousel/banner.jpg");
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-shadow: 4px 2px 15px #000000;
+  height: 15px;
+}
+
+/* Fin Pie de página */
+
+/* Inicio Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+  }
+
+  .logo {
+    width: 200px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    text-align: left;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .nav-header a {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 0.4rem;
+  }
+
+  .nuestros_productos {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  header h5 {
+    font-size: 0.9rem;
+    margin-top: 0;
+  }
+}
+
+/* Fin Estilos para pantallas pequeñas */

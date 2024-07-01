@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chocoarte Delicioso</title>
+    <meta
+      name="description"
+      content="Bienvenido a Chocoarte Delicioso, donde encontrarás los mejores bombones y chocolates artesanales. Explora nuestra selección y disfruta de nuestras deliciosas creaciones."
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="static/assets/index/logo/favicon_4_11zon.webp"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4db8309fde.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Inicio de Header -->
+    <header>
+      <div>
+        <h5>ENVÍOS CON TU COMPRA SUPERIOR A $100.000</h5>
+      </div>
+
+      <section>
+        <div class="logo">
+          <img src="static/assets/index/logo/logo_oscuro_7_11zon.webp" alt="Logo" />
+        </div>
+        <div class="icons">
+          <a class="icon" href="{{ url_for('login') }}">
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a class="icon" href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/">
+            <i class="fa-solid fa-star"></i>
+          </a>
+          <a class="icon" href="{{ url_for('logout') }}">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+        </div>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a class="icon" href="{{ url_for('index') }}">Inicio</a></li>
+          <li><a class="icon" href="{{ url_for('productos') }}">Productos</a></li>
+          <li>
+            <a class="icon" href=".{{ url_for('sobre_nosotros') }}">Sobre Nosotros</a
+            >
+          </li>
+          <li><a class="icon" href="{{ url_for('contacto') }}">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Fin de Header -->
+    <main>
+      <!-- Inicio Carrousel -->
+      <h2>Productos Destacados</h2>
+      <section class="carrusel">
+        <div class="carrusel_cotainer">
+          <div class="carrusel_items">
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="./assets/index/Carrousel/mensaje_16_11zon.webp"
+                alt="Producto destacado 1"
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje2_16_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje3_17_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje4_18_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje5_19_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje6_20_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje_15_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones2_4_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones3_5_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones4_6_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones5_7_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones6_8_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/flores2_10_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/flores3_11_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/flores4_12_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/flores5_13_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/flores6_14_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/flores_9_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje2_16_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje2_16_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje3_17_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje4_18_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje5_19_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje6_20_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones2_4_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones3_5_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones4_6_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones5_7_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones6_8_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/bombones_3_11zon.webp"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="anterior">
+            <button class="boton_anterior">
+              <span class="visually-hidden">Anterior</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+          </div>
+          <div class="siguiente">
+            <button class="boton_siguente">
+              <span class="visually-hidden">Siguiente</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Fin de Carrousel -->
+      <!-- Inicio de Productos -->
+      <h2 class="nuestros_productos_titulo">Nuestros Productos</h2>
+      <div class="nuestros_productos">
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/figura7_4_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Conejito simple de azúcar</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/figura6_3_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Conejito doble de Azúcar</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/figura12_6_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Corazón de chocolate</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/paletita2_9_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Paletitas de chocolate</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/figura2_2_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Unicornio de chocolate</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/figura9_5_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Conejito de chocolate</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/figura_1_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Dinosaurio de chocolate</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/osito6_7_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Osito con bombones</p>
+        </div>
+        <div class="card">
+          <img
+            src="static/assets/index/Productos/osito7_8_11zon.webp"
+            alt=""
+            loading="lazy"
+          />
+          <p>Ositos de chocolate rellenos</p>
+        </div>
+      </div>
+      <!-- Fin de Productos -->
+    </main>
+    <!-- Pie de página -->
+    <footer>
+      <p>Derechos de autor © 2024 Grupo 20 Codo a Codo: Fullstack Python</p>
+    </footer>
+
+    <script src="static/js/index.js"></script>
+  </body>
+</html>

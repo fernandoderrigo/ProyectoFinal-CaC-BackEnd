@@ -1,0 +1,39 @@
+{
+    "cajitas": [
+        {
+            "id": 1,
+            "nombre": "Cajitas animales",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Cajitas/cajita1.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Cajitas among us",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Cajitas/cajita2.jpg"        
+        },
+        {
+            "id": 3,
+            "nombre": "Cajitas ropas",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Cajitas/cajita3.jpg"
+                },
+        {
+            "id": 4,
+            "nombre": "Cajitas minions",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Cajitas/cajita4.jpg"        
+        },
+        {
+            "id": 5,
+            "nombre": "Cajitas robots",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Cajitas/cajita5.jpg"        
+        }
+    ]
+}

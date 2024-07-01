@@ -1,0 +1,39 @@
+{
+    "figuras en chocolate": [
+        {
+            "id": 1,
+            "nombre": "Dinosaurio",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuraschoco/figura.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Unicornio",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuraschoco/figura2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "zapatitos",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura6.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "pelotas",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura7.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Corazon",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras en chocolate/figura10.jpg"
+        }
+    ]
+}

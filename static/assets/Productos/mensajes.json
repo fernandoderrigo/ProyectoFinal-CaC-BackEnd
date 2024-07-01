@@ -1,0 +1,39 @@
+{
+    "mensajes": [
+        {
+            "id": 1,
+            "nombre": "Feliz dia Mamá",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Feliz dia Mamá 2",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Feliz dia Mamá 3",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje3.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Feliz dia Mamá cajita",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje4.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Feliz dia Mamá 4",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/mensajes/mensaje5.jpg"
+        }
+    ]
+}

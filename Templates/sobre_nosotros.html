@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="shortcut icon" href="../assets/index/logo/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sobre_nosotros.css') }}" />
+
+    <!-- Enlace externo a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    
+    <script
+      src="https://kit.fontawesome.com/4db8309fde.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+  <header>
+    <!-- shipments -->
+    <div>
+      <h5>ENVÍOS A TODA ZONA ESTE CON TU COMPRA SUPERIOR A $100.000</h5>
+    </div>
+
+    <section>
+      <div class="logo">
+        <img src="static/assets/index/logo/logo_oscuro_7_11zon.webp" alt="Logo" />
+      </div>
+      <div class="icons">
+        <a class="icon" href="{{ url_for('login') }}">
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <a class="icon" href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/">
+          <i class="fa-solid fa-star"></i>
+        </a>
+        <a class="icon" href="{{ url_for('logout') }}">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </a>
+      </div>
+    </section>
+
+    <nav>
+      <ul>
+        <li><a class="icon" href="{{ url_for('index') }}">Inicio</a></li>
+        <li><a class="icon" href="{{ url_for('productos') }}">Productos</a></li>
+        <li>
+          <a class="icon" href=".{{ url_for('sobre_nosotros') }}">Sobre Nosotros</a
+          >
+        </li>
+        <li><a class="icon" href="{{ url_for('contacto') }}">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+    <section class="main-content">
+        <h2 class="pb-12">Sobre nosotros</h2>
+
+        <div class="fila pt-60 pb-60">
+          <div class="columnaImagen">
+            <img class="imagen" src="static/assets/SobreNosotros/figura8.jpg" alt="Logo de ChocoArte Delicioso">
+          </div>
+          <div class="columna pr-60">
+            <p id="parrafo_sn">Sumérgete en una experiencia única de chocolate artesanal que deleitará tus sentidos y despertará tu imaginación. Con más de una década de dedicación apasionada, en ChocoArte Delicioso nos enorgullece ser artesanos del chocolate en Isidro Casanova.</p>
+            <p id="parrafo_sn">En cada bocado, encontrarás una fusión perfecta entre la excelencia en la calidad de nuestros ingredientes y la expresión de nuestra creatividad. Nos esforzamos por llevar alegría y sabor a cada momento, utilizando solo los mejores ingredientes y técnicas de elaboración artesanal.</p>
+            <p id="parrafo_sn">Pero en ChocoArte Delicioso, no nos limitamos a hacer chocolates; creamos experiencias memorables. Nos especializamos en diseños personalizados, adaptados a tus gustos y ocasiones especiales. Ya sea que estés buscando el regalo perfecto o simplemente quieras darte un capricho, nuestros expertos chocolateros están aquí para hacer tus sueños de chocolate realidad.</p>
+          </div>
+        </div>
+
+        <div class="fila pb-60">
+          <div class="columna pl-60">
+            <p id="parrafo_sn">Únete a nosotros en este viaje de indulgencia y descubre cómo transformamos el simple acto de comer chocolate en una experiencia única e inolvidable. ¡Haz de cada bocado un momento para recordar con ChocoArte Delicioso!</p>
+            <p id="parrafo_sn">¡Contáctanos hoy mismo para descubrir cómo podemos hacer tu próxima ocasión aún más especial con nuestro arte del chocolate!</p>
+          </div>
+          <div class="columnaImagen">
+            <img class="imagen" src="static/assets/SobreNosotros/huevo5.jpg" alt="Logo de ChocoArte Delicioso">
+          </div>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; 
+          <span id="copyright">
+            <script>getYear()</script>
+          </span> ChocoArte Delicioso. Todos los derechos reservados.</p>
+    </footer>
+        
+</body>
+    <!-- Enlace a los scripts de Bootstrap (jQuery y Popper.js son requeridos) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</html>

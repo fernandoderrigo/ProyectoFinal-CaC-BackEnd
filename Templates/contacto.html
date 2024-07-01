@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chocoarte Delicioso</title>
+    <meta
+      name="description"
+      content="Bienvenido a Chocoarte Delicioso, donde encontrarás los mejores bombones y chocolates artesanales. Explora nuestra selección y disfruta de nuestras deliciosas creaciones."
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contacto.css') }}" />
+    <script
+      src="https://kit.fontawesome.com/4db8309fde.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/index/logo/favicon_4_11zon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Inicio de Header -->
+    <header>
+      <div>
+        <h5>ENVÍOS CON TU COMPRA SUPERIOR A $100.000</h5>
+      </div>
+      <section>
+        <div class="logo">
+          <img src="static/assets/index/logo/logo_oscuro_7_11zon.webp" alt="Logo" />
+        </div>
+        <div class="icons">
+          <a class="icon" href="{{ url_for('login') }}">
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a class="icon" href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/">
+            <i class="fa-solid fa-star"></i>
+          </a>
+          <a class="icon" href="{{ url_for('logout') }}">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+        </div>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a class="icon" href="{{ url_for('index') }}">Inicio</a></li>
+          <li><a class="icon" href="{{ url_for('productos') }}">Productos</a></li>
+          <li>
+            <a class="icon" href=".{{ url_for('sobre_nosotros') }}">Sobre Nosotros</a
+            >
+          </li>
+          <li><a class="icon" href="{{ url_for('contacto') }}">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Fin de Header -->
+    <main class="maincontact">
+      <!--Formulario de contacto-->
+      <div class="container">
+        <h2 id="h2form">Formulario de Contacto</h2>
+        <div class="line"></div>
+        <form id="contactoForm" action="contacto.html" method="GET">
+          <label for="nombre">Nombre <span class="asterisco">*</span></label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="apellido"
+            >Apellido <span class="asterisco">*</span></label
+          >
+          <input type="text" id="apellido" name="apellido" required />
+
+          <label for="email"
+            >Correo Electrónico <span class="asterisco">*</span></label
+          >
+          <input type="email" id="email" name="email" required />
+
+          <label for="referencia">¿Cómo se enteró de nosotros?</label>
+          <select id="referencia" name="referencia">
+            <option value="Redes Sociales">Redes Sociales</option>
+            <option value="Búsqueda en Internet">Búsqueda en Internet</option>
+            <option value="Recomendación de un amigo">
+              Recomendación de un amigo
+            </option>
+            <option value="Otro">Otro</option>
+          </select>
+
+          <div class="radio">
+            <legend>¿Desea Recibir nuestro Newsletter?</legend>
+            <label for="si" id="si">Si</label>
+            <input type="radio" name="newsletter" value="true" checked />
+            <label for="no" id="no">No</label>
+            <input type="radio" name="newsletter" value="false" />
+          </div>
+
+          <label for="comentarios">Consulta o comentario</label>
+          <textarea
+            id="comentarios"
+            name="comentarios"
+            placeholder="Ingrese su consulta o comentario..."
+            maxlength="1000"
+          ></textarea>
+          <input type="file" class="imagen" name="imagen" />
+          <p id="texto_asterisco">
+            Los campos con <span class="asterisco">*</span> son obligatorios
+          </p>
+
+          <div class="button">
+            <input type="submit" value="Enviar" id="enviar" />
+            <button type="reset">Borrar</button>
+          </div>
+        </form>
+      </div>
+      <script src="../scripts/contacto.js"></script>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>Derechos de autor © 2024 Grupo 20 Codo a Codo: Fullstack Python</p>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts/contacto.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+{
+    "huevos": [
+        {
+            "id": 1,
+            "nombre": "Huevo decorado",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Huevo corazon",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Huevo colores",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo5.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Huevo grande",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo6.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Huevos Dinos",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/huevos/huevo7.jpg"
+        }
+    ]
+}

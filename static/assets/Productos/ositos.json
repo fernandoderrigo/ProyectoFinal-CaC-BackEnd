@@ -1,0 +1,25 @@
+{
+    "ositos": [
+        {
+            "id": 1,
+            "nombre": "ositos cajitas triple",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Ositos/osito.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Ositos con bombones",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Ositos/osito2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Ositos",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Ositos/osito4.jpg"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "paletitas": [
+        {
+            "id": 1,
+            "nombre": "paleta conejo",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Paletitas/paletita2.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "paleta conejo grande",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Paletitas/paletita3.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "paleta unicornio",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Paletitas/paletita4.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "paletitas Among Us",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Paletitas/paletita5.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "paletitas Among Us y robot",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Paletitas/paletita.jpg"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "figuras en azucar": [
+        {
+            "id": 1,
+            "nombre": "Flores",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras/figura1.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Patitos",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras/figura3.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "conejitos cara",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras/figura4.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Conejitos",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras/figura5.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Ositos",
+            "stock": 30,
+            "precio": 1000,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/Figuras/figura6.jpg"
+        }
+    ]
+}

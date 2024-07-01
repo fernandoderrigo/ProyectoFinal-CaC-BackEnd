@@ -1,0 +1,39 @@
+{
+    "bombones": [
+        {
+            "id": 1,
+            "nombre": "Bombones redondos",
+            "stock": 30,
+            "precio": 1100,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Bombones redondos 2",
+            "stock": 30,
+            "precio": 1200,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones17.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Bombones redondos 3",
+            "stock": 30,
+            "precio": 1300,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones2.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Bombones redondos 4",
+            "stock": 30,
+            "precio": 1400,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones3.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Bombones redondos 5",
+            "stock": 30,
+            "precio": 1500,
+            "img": "../assets/Productos/Chocolates-20240503T122915Z-001/chocolates/bombones/bombones4.jpg"
+        }
+    ]
+}
