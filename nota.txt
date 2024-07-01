@@ -1,0 +1,11 @@
+Se cambiaron algunas rutas de imagenes para que PythonAnywhere funcione correctamente
+
+Ejemplo:
+
+            <a href="./pages/productos.html" class="item">
+              <img
+                src="static/assets/index/Carrousel/mensaje2_16_11zon.webp"
+                alt=""
+                loading="lazy"
+
+Desde el entorno no funciona, pero en PythonAnywhere si (esta echo aproposito el cambio)
